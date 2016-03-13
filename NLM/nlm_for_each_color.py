@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-import argparse, sys
+import argparse
 import numpy as np
 import matplotlib.pyplot as plt
 import cv2
