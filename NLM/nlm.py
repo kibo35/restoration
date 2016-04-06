@@ -31,7 +31,7 @@ h, w    = img.shape[:2]
 cv2.imwrite('result/resize.png', img)
 
 print   'NLM...'
-dst = cv2.fastNlMeansDenoisingColored(img, param_h, param_h, patch_size, search_size)
+dst = cv2.fastNlMeansDenoisingColored(img, None, param_h, param_h, patch_size, search_size)
 cv2.imwrite('result/result.png', dst)
 
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
